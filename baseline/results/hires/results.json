@@ -1,0 +1,1983 @@
+[
+  {
+    "width": 1924,
+    "height": 1080,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.8055098603572577,
+    "laplacian_var": 71.76460743116138,
+    "median_laplacian": 63.33286112546921,
+    "sobel_var": 4672.154255953351,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 344.7644569453321,
+    "display_laplacian_local": 385.3629078269005,
+    "brightness": 121.55054140679141,
+    "overexposed_pct": 1.5336971586971586,
+    "underexposed_pct": 0.0,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 9,
+    "main_class": "car",
+    "max_confidence": 0.8545000553131104,
+    "fill_rate": 0.1800622738122738,
+    "is_off_center": false,
+    "composition_issues": [
+      "Объект занимает 18% кадра (рекомендуется > 30%)"
+    ],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.878,
+        "box": [
+          775,
+          550,
+          1067,
+          788
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.855,
+        "box": [
+          833,
+          850,
+          1230,
+          1074
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.847,
+        "box": [
+          1206,
+          450,
+          1499,
+          673
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.799,
+        "box": [
+          629,
+          391,
+          875,
+          588
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.681,
+        "box": [
+          280,
+          287,
+          396,
+          360
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.659,
+        "box": [
+          582,
+          332,
+          776,
+          515
+        ]
+      },
+      {
+        "cls": "truck",
+        "conf": 0.612,
+        "box": [
+          900,
+          285,
+          1109,
+          460
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.55,
+        "box": [
+          487,
+          277,
+          669,
+          441
+        ]
+      },
+      {
+        "cls": "truck",
+        "conf": 0.504,
+        "box": [
+          124,
+          197,
+          258,
+          369
+        ]
+      },
+      {
+        "cls": "bus",
+        "conf": 0.425,
+        "box": [
+          125,
+          198,
+          258,
+          369
+        ]
+      }
+    ],
+    "issues": [
+      "Объект занимает 18% кадра (рекомендуется > 30%)"
+    ],
+    "score": 8.5,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Заполнение 18%: -1.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": true,
+    "car_fill": 0.042796642796642796,
+    "extra_objects": {},
+    "other_large_cars": 3,
+    "context_issues": [
+      "Автомобиль обрезан краем кадра",
+      "Автомобиль занимает 4% кадра (мало)",
+      "В кадре есть другие крупные автомобили"
+    ],
+    "main_photo_ok": false,
+    "time_s": 2.906,
+    "file": "neg_highway.jpg"
+  },
+  {
+    "width": 320,
+    "height": 175,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.689022712571767,
+    "laplacian_var": 2069.152983029673,
+    "median_laplacian": 1927.523434996605,
+    "sobel_var": 16013.678702977692,
+    "sharpness_score": 0.6259675119525578,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 37.39622646726868,
+    "display_laplacian_local": 51.561422880738974,
+    "brightness": 101.52832142857143,
+    "overexposed_pct": 0.5499999999999999,
+    "underexposed_pct": 0.048214285714285716,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.9269937872886658,
+    "fill_rate": 0.5283928571428571,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.927,
+        "box": [
+          18,
+          43,
+          287,
+          153
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (320x175)"
+    ],
+    "score": 7.8,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Пограничная чёткость: -0.7",
+      "Очень низкое разрешение 320x175: -1.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5283928571428571,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.067,
+    "file": "red_car_320.jpg"
+  },
+  {
+    "width": 640,
+    "height": 350,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.7798502268484588,
+    "laplacian_var": 1546.5059414435925,
+    "median_laplacian": 1058.3761284053326,
+    "sobel_var": 13137.15955441232,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 299.91212643425376,
+    "display_laplacian_local": 307.03896839544177,
+    "brightness": 101.52975,
+    "overexposed_pct": 0.6767857142857143,
+    "underexposed_pct": 0.043750000000000004,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.947546124458313,
+    "fill_rate": 0.5274821428571429,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.948,
+        "box": [
+          33,
+          87,
+          575,
+          305
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (640x350)"
+    ],
+    "score": 9.0,
+    "verdict": "Отлично",
+    "penalties": [
+      "Низкое разрешение 640x350: -1.0"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5274821428571429,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.069,
+    "file": "red_car_640.jpg"
+  },
+  {
+    "width": 320,
+    "height": 180,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.6868021066737781,
+    "laplacian_var": 2148.075669303002,
+    "median_laplacian": 2693.2931329905987,
+    "sobel_var": 12705.005010552479,
+    "sharpness_score": 0.6159182180453654,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 38.061672283842185,
+    "display_laplacian_local": 46.57407968584448,
+    "brightness": 92.46222222222222,
+    "overexposed_pct": 0.9131944444444444,
+    "underexposed_pct": 2.147569444444444,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.5137863755226135,
+    "fill_rate": 0.6684027777777778,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.514,
+        "box": [
+          28,
+          20,
+          303,
+          160
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (320x180)"
+    ],
+    "score": 7.7,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Пограничная чёткость: -0.8",
+      "Очень низкое разрешение 320x180: -1.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.6684027777777778,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.07,
+    "file": "blue_car_320.jpg"
+  },
+  {
+    "width": 640,
+    "height": 360,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.7914967656274015,
+    "laplacian_var": 1425.8547597684758,
+    "median_laplacian": 1397.5650200545788,
+    "sobel_var": 10149.185427748494,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 276.4310442137536,
+    "display_laplacian_local": 367.23248290643096,
+    "brightness": 92.4733420138889,
+    "overexposed_pct": 0.9874131944444444,
+    "underexposed_pct": 2.5811631944444446,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 2,
+    "main_class": "truck",
+    "max_confidence": 0.41635462641716003,
+    "fill_rate": 0.6768402777777778,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.541,
+        "box": [
+          54,
+          43,
+          604,
+          323
+        ]
+      },
+      {
+        "cls": "truck",
+        "conf": 0.416,
+        "box": [
+          55,
+          41,
+          607,
+          323
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (640x360)"
+    ],
+    "score": 9.0,
+    "verdict": "Отлично",
+    "penalties": [
+      "Низкое разрешение 640x360: -1.0"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.675625,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.097,
+    "file": "blue_car_640.jpg"
+  },
+  {
+    "width": 1280,
+    "height": 701,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.8538147030651806,
+    "laplacian_var": 1088.9207596446627,
+    "median_laplacian": 846.5467376708984,
+    "sobel_var": 9649.590705547245,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 695.4479970913033,
+    "display_laplacian_local": 791.1828015930951,
+    "brightness": 101.49122570435092,
+    "overexposed_pct": 0.7917261055634808,
+    "underexposed_pct": 0.04413338088445078,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.9508070945739746,
+    "fill_rate": 0.5257578459343795,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.951,
+        "box": [
+          68,
+          176,
+          1150,
+          612
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 9.5,
+    "verdict": "Отлично",
+    "penalties": [
+      "Разрешение ниже рекомендуемого 1280x701: -0.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5257578459343795,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.261,
+    "file": "red_car_1280.jpg"
+  },
+  {
+    "width": 5472,
+    "height": 2995,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.9294892101409535,
+    "laplacian_var": 771.2460052460092,
+    "median_laplacian": 334.1060580611229,
+    "sobel_var": 5221.538590793251,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 1227.5451325903318,
+    "display_laplacian_local": 1568.1783158145845,
+    "brightness": 101.50653757724864,
+    "overexposed_pct": 0.9061032520087084,
+    "underexposed_pct": 0.02837331224555546,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.8856289386749268,
+    "fill_rate": 0.5364453670347265,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.886,
+        "box": [
+          261,
+          760,
+          4975,
+          2625
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 10.0,
+    "verdict": "Отлично",
+    "penalties": [],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5364453670347265,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 5.233,
+    "file": "red_car_full.jpg"
+  },
+  {
+    "width": 320,
+    "height": 213,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.7052771757002916,
+    "laplacian_var": 3989.7611209287816,
+    "median_laplacian": 4477.186396449804,
+    "sobel_var": 19936.850028449244,
+    "sharpness_score": 0.7798900006167246,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 68.56078783856692,
+    "display_laplacian_local": 101.96533203125,
+    "brightness": 100.32693661971831,
+    "overexposed_pct": 0.020539906103286383,
+    "underexposed_pct": 5.444542253521126,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.8640372157096863,
+    "fill_rate": 0.5101232394366197,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.864,
+        "box": [
+          15,
+          50,
+          300,
+          172
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (320x213)"
+    ],
+    "score": 8.5,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Очень низкое разрешение 320x213: -1.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5101232394366197,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.082,
+    "file": "black_car_320.jpg"
+  },
+  {
+    "width": 640,
+    "height": 427,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.8003408853569864,
+    "laplacian_var": 2700.8108910229676,
+    "median_laplacian": 2917.550089240074,
+    "sobel_var": 17058.878727125433,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 518.7490859453347,
+    "display_laplacian_local": 668.3787651322782,
+    "brightness": 100.49774956088993,
+    "overexposed_pct": 0.02854215456674473,
+    "underexposed_pct": 6.308548009367682,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.8875014781951904,
+    "fill_rate": 0.5059536007025761,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.888,
+        "box": [
+          29,
+          103,
+          598,
+          346
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (640x427)"
+    ],
+    "score": 9.0,
+    "verdict": "Отлично",
+    "penalties": [
+      "Низкое разрешение 640x427: -1.0"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5059536007025761,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.071,
+    "file": "black_car_640.jpg"
+  },
+  {
+    "width": 1280,
+    "height": 719,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.8563250085983476,
+    "laplacian_var": 943.0660850685165,
+    "median_laplacian": 630.7022113204002,
+    "sobel_var": 7893.0324648411515,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 614.948267799786,
+    "display_laplacian_local": 849.5344593860209,
+    "brightness": 92.35608484005563,
+    "overexposed_pct": 1.0595227746870655,
+    "underexposed_pct": 2.930937065368567,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.5837081670761108,
+    "fill_rate": 0.6687239221140473,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.584,
+        "box": [
+          107,
+          86,
+          1206,
+          646
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 9.5,
+    "verdict": "Отлично",
+    "penalties": [
+      "Разрешение ниже рекомендуемого 1280x719: -0.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.6687239221140473,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.143,
+    "file": "blue_car_1280.jpg"
+  },
+  {
+    "width": 4912,
+    "height": 2760,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.9326421842956519,
+    "laplacian_var": 253.09219491049743,
+    "median_laplacian": 118.36644023656845,
+    "sobel_var": 4093.0492577716677,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 1064.3370981077753,
+    "display_laplacian_local": 1404.5075821755454,
+    "brightness": 92.38748959956096,
+    "overexposed_pct": 1.2117986711041873,
+    "underexposed_pct": 3.6005508544587643,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.5357431769371033,
+    "fill_rate": 0.6587184446254072,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.536,
+        "box": [
+          457,
+          338,
+          4632,
+          2477
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 10.0,
+    "verdict": "Отлично",
+    "penalties": [],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.6587184446254072,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 3.454,
+    "file": "blue_car_full.jpg"
+  },
+  {
+    "width": 320,
+    "height": 180,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.7238069377707259,
+    "laplacian_var": 3591.8719656705102,
+    "median_laplacian": 3681.79834574461,
+    "sobel_var": 24079.907779493682,
+    "sharpness_score": 0.7418712855183167,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 61.65009907091268,
+    "display_laplacian_local": 82.49531346186996,
+    "brightness": 90.78149305555556,
+    "overexposed_pct": 0.09375,
+    "underexposed_pct": 3.989583333333333,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.8268832564353943,
+    "fill_rate": 0.5173611111111112,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.827,
+        "box": [
+          9,
+          57,
+          307,
+          157
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (320x180)"
+    ],
+    "score": 8.5,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Очень низкое разрешение 320x180: -1.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5173611111111112,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.056,
+    "file": "white_car_320.jpg"
+  },
+  {
+    "width": 640,
+    "height": 360,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.806788838610881,
+    "laplacian_var": 2571.428604734235,
+    "median_laplacian": 2176.8607025146484,
+    "sobel_var": 19017.137425146808,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 489.342983959544,
+    "display_laplacian_local": 716.3844398148358,
+    "brightness": 90.77578993055556,
+    "overexposed_pct": 0.21223958333333334,
+    "underexposed_pct": 4.762152777777778,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.8332529067993164,
+    "fill_rate": 0.5356770833333333,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.833,
+        "box": [
+          16,
+          114,
+          621,
+          318
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (640x360)"
+    ],
+    "score": 9.0,
+    "verdict": "Отлично",
+    "penalties": [
+      "Низкое разрешение 640x360: -1.0"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5356770833333333,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.059,
+    "file": "white_car_640.jpg"
+  },
+  {
+    "width": 1280,
+    "height": 853,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.8626958344746325,
+    "laplacian_var": 1457.4499231087702,
+    "median_laplacian": 1236.6269700527191,
+    "sobel_var": 13759.138217674557,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 1075.1172192816157,
+    "display_laplacian_local": 1283.2360818386078,
+    "brightness": 100.38671417057445,
+    "overexposed_pct": 0.04313818874560375,
+    "underexposed_pct": 6.905315797186401,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.885906994342804,
+    "fill_rate": 0.5096625879249707,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.886,
+        "box": [
+          54,
+          206,
+          1199,
+          692
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 10.0,
+    "verdict": "Отлично",
+    "penalties": [],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5096625879249707,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.129,
+    "file": "black_car_1280.jpg"
+  },
+  {
+    "width": 6000,
+    "height": 4000,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.9495347419423905,
+    "laplacian_var": 249.37159952260845,
+    "median_laplacian": 74.63812002539635,
+    "sobel_var": 4942.96585924501,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 1794.7461179477057,
+    "display_laplacian_local": 2000.9252645634115,
+    "brightness": 100.351982125,
+    "overexposed_pct": 0.03846666666666667,
+    "underexposed_pct": 7.429779166666667,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.9034878015518188,
+    "fill_rate": 0.5168265,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.903,
+        "box": [
+          236,
+          957,
+          5662,
+          3243
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 10.0,
+    "verdict": "Отлично",
+    "penalties": [],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5168265,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 6.645,
+    "file": "black_car_full.jpg"
+  },
+  {
+    "width": 1280,
+    "height": 721,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.8690769746400955,
+    "laplacian_var": 1478.847163391687,
+    "median_laplacian": 1279.3879670500755,
+    "sobel_var": 14377.432201152034,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 1065.9765032750165,
+    "display_laplacian_local": 1435.352002862841,
+    "brightness": 90.80945193307906,
+    "overexposed_pct": 0.3335211511789182,
+    "underexposed_pct": 5.337530339805825,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.820300817489624,
+    "fill_rate": 0.5318589632454924,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.82,
+        "box": [
+          36,
+          228,
+          1242,
+          635
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 10.0,
+    "verdict": "Отлично",
+    "penalties": [],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5318589632454924,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 0.127,
+    "file": "white_car_1280.jpg"
+  },
+  {
+    "width": 3936,
+    "height": 2216,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.9382748913197907,
+    "laplacian_var": 355.72379949963334,
+    "median_laplacian": 234.8149938583374,
+    "sobel_var": 7216.996090302949,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 1780.8960544323174,
+    "display_laplacian_local": 2240.3810641653836,
+    "brightness": 90.70755348206686,
+    "overexposed_pct": 0.5299251012591353,
+    "underexposed_pct": 6.0594168244254645,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 1,
+    "main_class": "car",
+    "max_confidence": 0.7870903015136719,
+    "fill_rate": 0.5220846265885944,
+    "is_off_center": false,
+    "composition_issues": [],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.787,
+        "box": [
+          83,
+          706,
+          3834,
+          1920
+        ]
+      }
+    ],
+    "issues": [],
+    "score": 10.0,
+    "verdict": "Отлично",
+    "penalties": [],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": false,
+    "car_fill": 0.5220846265885944,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [],
+    "main_photo_ok": true,
+    "time_s": 1.098,
+    "file": "white_car_full.jpg"
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.5565641423712142,
+    "laplacian_var": 2595.111869570272,
+    "median_laplacian": 2664.0184705257416,
+    "sobel_var": 9166.741957533914,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px",
+    "display_laplacian_var": 1814.3120421862436,
+    "display_laplacian_local": 2127.2454124027863,
+    "brightness": 151.23627821180557,
+    "overexposed_pct": 0.10687934027777779,
+    "underexposed_pct": 0.0,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": false,
+    "object_count": 0,
+    "main_class": null,
+    "max_confidence": 0.0,
+    "fill_rate": 0.0,
+    "is_off_center": false,
+    "composition_issues": [
+      "Автомобиль не найден"
+    ],
+    "detections": [],
+    "issues": [
+      "Автомобиль не найден"
+    ],
+    "score": 7.0,
+    "verdict": "Удовлетворительно",
+    "penalties": [
+      "Объект не найден: -3.0"
+    ],
+    "technically_ok": false,
+    "car_found": false,
+    "car_cropped": false,
+    "car_fill": 0.0,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [
+      "На фото не найден автомобиль"
+    ],
+    "main_photo_ok": false,
+    "time_s": 0.163,
+    "file": "neg_aerial_forest.jpg"
+  },
+  {
+    "width": 900,
+    "height": 600,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.5663401821832188,
+    "laplacian_var": 6341.2057407087,
+    "median_laplacian": 5999.176933050156,
+    "sobel_var": 19201.930551665846,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 3135.5622348222873,
+    "display_laplacian_local": 3135.5622348222873,
+    "brightness": 83.44132222222223,
+    "overexposed_pct": 0.18703703703703703,
+    "underexposed_pct": 9.537777777777778,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 32,
+    "main_class": "car",
+    "max_confidence": 0.7853730320930481,
+    "fill_rate": 0.16037592592592592,
+    "is_off_center": true,
+    "composition_issues": [
+      "Объект занимает 16% кадра (рекомендуется > 30%)",
+      "Объект смещён от центра"
+    ],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.785,
+        "box": [
+          77,
+          542,
+          194,
+          597
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.779,
+        "box": [
+          568,
+          336,
+          611,
+          369
+        ]
+      },
+      {
+        "cls": "bus",
+        "conf": 0.775,
+        "box": [
+          120,
+          424,
+          212,
+          524
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.67,
+        "box": [
+          219,
+          395,
+          263,
+          435
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.657,
+        "box": [
+          803,
+          565,
+          898,
+          599
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.647,
+        "box": [
+          341,
+          556,
+          473,
+          598
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.634,
+        "box": [
+          573,
+          514,
+          648,
+          573
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.617,
+        "box": [
+          357,
+          450,
+          409,
+          492
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.606,
+        "box": [
+          592,
+          413,
+          643,
+          456
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.601,
+        "box": [
+          449,
+          351,
+          490,
+          386
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.591,
+        "box": [
+          664,
+          556,
+          765,
+          598
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.574,
+        "box": [
+          581,
+          376,
+          627,
+          414
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.572,
+        "box": [
+          662,
+          499,
+          731,
+          557
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.563,
+        "box": [
+          107,
+          510,
+          165,
+          546
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.554,
+        "box": [
+          524,
+          449,
+          572,
+          490
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.553,
+        "box": [
+          35,
+          518,
+          118,
+          584
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.552,
+        "box": [
+          763,
+          535,
+          851,
+          600
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.545,
+        "box": [
+          439,
+          277,
+          473,
+          306
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.544,
+        "box": [
+          305,
+          340,
+          346,
+          373
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.543,
+        "box": [
+          532,
+          258,
+          566,
+          286
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.534,
+        "box": [
+          283,
+          551,
+          370,
+          599
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.53,
+        "box": [
+          276,
+          421,
+          331,
+          475
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.527,
+        "box": [
+          170,
+          520,
+          246,
+          581
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.523,
+        "box": [
+          204,
+          430,
+          250,
+          471
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.512,
+        "box": [
+          357,
+          411,
+          406,
+          452
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.499,
+        "box": [
+          366,
+          381,
+          411,
+          424
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.498,
+        "box": [
+          515,
+          368,
+          561,
+          411
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.489,
+        "box": [
+          554,
+          285,
+          592,
+          319
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.472,
+        "box": [
+          254,
+          477,
+          320,
+          519
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.468,
+        "box": [
+          448,
+          487,
+          524,
+          541
+        ]
+      },
+      {
+        "cls": "bus",
+        "conf": 0.461,
+        "box": [
+          530,
+          204,
+          584,
+          267
+        ]
+      },
+      {
+        "cls": "bus",
+        "conf": 0.438,
+        "box": [
+          248,
+          254,
+          303,
+          337
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.433,
+        "box": [
+          472,
+          535,
+          550,
+          599
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.432,
+        "box": [
+          723,
+          523,
+          793,
+          567
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.402,
+        "box": [
+          543,
+          471,
+          608,
+          526
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.399,
+        "box": [
+          448,
+          388,
+          491,
+          426
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.398,
+        "box": [
+          321,
+          312,
+          358,
+          346
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.391,
+        "box": [
+          501,
+          326,
+          541,
+          357
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.389,
+        "box": [
+          323,
+          488,
+          393,
+          554
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.346,
+        "box": [
+          491,
+          553,
+          588,
+          599
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.34,
+        "box": [
+          517,
+          399,
+          564,
+          438
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.338,
+        "box": [
+          483,
+          236,
+          514,
+          266
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.331,
+        "box": [
+          227,
+          502,
+          285,
+          556
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.293,
+        "box": [
+          325,
+          270,
+          361,
+          300
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.287,
+        "box": [
+          29,
+          547,
+          65,
+          597
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.263,
+        "box": [
+          166,
+          326,
+          180,
+          361
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.254,
+        "box": [
+          569,
+          571,
+          671,
+          597
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.251,
+        "box": [
+          228,
+          518,
+          271,
+          577
+        ]
+      }
+    ],
+    "issues": [
+      "Объект занимает 16% кадра (рекомендуется > 30%)",
+      "Объект смещён от центра"
+    ],
+    "score": 7.5,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Заполнение 16%: -1.5",
+      "Смещение от центра: -0.5",
+      "Разрешение ниже рекомендуемого 900x600: -0.5"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": true,
+    "car_fill": 0.011916666666666667,
+    "extra_objects": {},
+    "other_large_cars": 12,
+    "context_issues": [
+      "Автомобиль обрезан краем кадра",
+      "Автомобиль занимает 1% кадра (мало)",
+      "В кадре есть другие крупные автомобили"
+    ],
+    "main_photo_ok": false,
+    "time_s": 0.054,
+    "file": "neg_bridge_traffic.jpg"
+  },
+  {
+    "width": 960,
+    "height": 1280,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.9327142790585534,
+    "laplacian_var": 1050.5729856682613,
+    "median_laplacian": 464.1523835361004,
+    "sobel_var": 9632.45924192328,
+    "sharpness_score": 1.0,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px",
+    "display_laplacian_var": 773.7613360083438,
+    "display_laplacian_local": 949.4615492559969,
+    "brightness": 158.61905517578126,
+    "overexposed_pct": 20.199462890625,
+    "underexposed_pct": 0.10620117187499999,
+    "is_overexposed": true,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": false,
+    "object_count": 0,
+    "main_class": null,
+    "max_confidence": 0.0,
+    "fill_rate": 0.0,
+    "is_off_center": false,
+    "composition_issues": [
+      "Автомобиль не найден"
+    ],
+    "detections": [
+      {
+        "cls": "person",
+        "conf": 0.884,
+        "box": [
+          382,
+          150,
+          553,
+          671
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.826,
+        "box": [
+          166,
+          525,
+          254,
+          659
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.814,
+        "box": [
+          0,
+          520,
+          71,
+          651
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.81,
+        "box": [
+          46,
+          492,
+          172,
+          655
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.768,
+        "box": [
+          552,
+          522,
+          686,
+          693
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.738,
+        "box": [
+          255,
+          526,
+          357,
+          666
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.657,
+        "box": [
+          240,
+          493,
+          305,
+          656
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.434,
+        "box": [
+          472,
+          510,
+          552,
+          666
+        ]
+      },
+      {
+        "cls": "person",
+        "conf": 0.337,
+        "box": [
+          503,
+          521,
+          588,
+          664
+        ]
+      }
+    ],
+    "issues": [
+      "Пересвет",
+      "Автомобиль не найден"
+    ],
+    "score": 5.5,
+    "verdict": "Плохо",
+    "penalties": [
+      "Пересвет (20.2%): -1.5",
+      "Объект не найден: -3.0"
+    ],
+    "technically_ok": false,
+    "car_found": false,
+    "car_cropped": false,
+    "car_fill": 0.0,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [
+      "На фото не найден автомобиль"
+    ],
+    "main_photo_ok": false,
+    "time_s": 0.205,
+    "file": "neg_accident_people.jpg"
+  },
+  {
+    "width": 640,
+    "height": 426,
+    "mode": "car",
+    "profile": "revised",
+    "acf_score": 0.7642627959857579,
+    "laplacian_var": 576.8408622555556,
+    "median_laplacian": 608.9184896349907,
+    "sobel_var": 15205.57352107611,
+    "sharpness_score": 0.8925738545321017,
+    "is_blurry": false,
+    "is_soft": false,
+    "is_motion_blur": false,
+    "blur_method": "резкость при показе 1024 px (по области объекта)",
+    "display_laplacian_var": 111.0679129522601,
+    "display_laplacian_local": 161.6026480095461,
+    "brightness": 120.98519292840376,
+    "overexposed_pct": 0.023840962441314555,
+    "underexposed_pct": 0.0007335680751173709,
+    "is_overexposed": false,
+    "is_underexposed": false,
+    "is_dark": false,
+    "is_bright": false,
+    "exposure_profile": "revised",
+    "object_found": true,
+    "object_count": 2,
+    "main_class": "car",
+    "max_confidence": 0.805604875087738,
+    "fill_rate": 0.21452464788732395,
+    "is_off_center": true,
+    "composition_issues": [
+      "Объект занимает 21% кадра (рекомендуется > 30%)",
+      "Объект смещён от центра"
+    ],
+    "detections": [
+      {
+        "cls": "car",
+        "conf": 0.806,
+        "box": [
+          474,
+          102,
+          639,
+          401
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.802,
+        "box": [
+          393,
+          208,
+          511,
+          321
+        ]
+      },
+      {
+        "cls": "train",
+        "conf": 0.595,
+        "box": [
+          0,
+          0,
+          379,
+          416
+        ]
+      },
+      {
+        "cls": "car",
+        "conf": 0.325,
+        "box": [
+          381,
+          232,
+          403,
+          259
+        ]
+      }
+    ],
+    "issues": [
+      "Низкое разрешение (640x426)",
+      "Объект занимает 21% кадра (рекомендуется > 30%)",
+      "Объект смещён от центра"
+    ],
+    "score": 8.0,
+    "verdict": "Хорошо",
+    "penalties": [
+      "Заполнение 21%: -0.5",
+      "Смещение от центра: -0.5",
+      "Низкое разрешение 640x426: -1.0"
+    ],
+    "technically_ok": true,
+    "car_found": true,
+    "car_cropped": true,
+    "car_fill": 0.18095290492957747,
+    "extra_objects": {},
+    "other_large_cars": 0,
+    "context_issues": [
+      "Автомобиль обрезан краем кадра",
+      "Автомобиль занимает 18% кадра (мало)"
+    ],
+    "main_photo_ok": false,
+    "time_s": 0.074,
+    "file": "neg_jeep_spare_wheel.jpg"
+  }
+]

@@ -1,0 +1,4 @@
+Фото: 22   TP=0 FP=0 TN=22 FN=0
+Accuracy 1.00   Precision 0.00   Recall 0.00   F1 0.00
+Ошибки:
+  нет

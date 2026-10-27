@@ -1,0 +1,5 @@
+# Версии, с которыми получены результаты курсовой (тег coursework-sem1)
+numpy==2.5.3
+opencv-python-headless==5.0.0
+ultralytics==8.4.191
+torch==2.14.1

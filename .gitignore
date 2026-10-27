@@ -1,0 +1,6 @@
+__pycache__/
+*.py[oc]
+.venv/
+*.pt
+/baseline/out/
+/parser/dataset_auto_ru/

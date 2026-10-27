@@ -1,0 +1,4 @@
+Фото: 9   TP=4 FP=0 TN=5 FN=0
+Accuracy 1.00   Precision 1.00   Recall 1.00   F1 1.00
+Ошибки:
+  нет
